@@ -1,0 +1,85 @@
+body{
+	background:#98eaed;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0bb9bf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+button:hover {
+  background-color: #0ceff7
+}
+
+button:active {
+  background-color: #7dcbce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#add-vacation {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #0bb9bf;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#add-vacation:hover {
+  background-color: #0ceff7
+}
+
+#add-vacation:active {
+  background-color: #7dcbce;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+img{
+	float:left;
+	width:350px;
+	height:300px;
+	padding-top: 45px;
+}
+
+.vacations-view-form{
+	margin-bottom: 25px;
+}
+
+.header{
+	font-family: 'Yeseva One', cursive;
+	color:#ffffff;
+	font-size
+}
+
+#vacations-view-form{
+	padding-top: 50px;
+}
+
+#vacations-view{
+	padding-top: 50px;
+}
