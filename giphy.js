@@ -26,7 +26,7 @@
 
       $('#vacations-view').on("click", function clickButtons() {
           var vacation = $(this).attr("data-name");
-          var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + vacation + "&api_key=dc6zaTOxFJmzC&limit=4";
+          var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + topics.length + "&api_key=dc6zaTOxFJmzC&limit=4";
 
           $.ajax({
               url: queryURL,
